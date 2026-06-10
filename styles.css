@@ -1,0 +1,52 @@
+H1{
+    text-align: center;
+    color: #1e4620;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.fila{
+max-width: 1000px;
+margin: 0 auto;
+align-items: center;
+padding: 0 20px;
+}
+.texto h2{
+    color: green;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+.texto p{
+    color: gray;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 2;
+    margin-bottom: 20px;
+}
+.botones{
+    display: flex;
+    gap: 8px;
+}
+.btn-read{
+    background-color: #1a4d1a;
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 0.8rem;
+    border-radius: 12px 0px 12px 0px;
+}
+.btn-arrow{
+    background-color: #1a4d1a;
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 4px;
+}
+.foto{
+    flex: 1;
+}
+#marco-decorativo{
+
+}
