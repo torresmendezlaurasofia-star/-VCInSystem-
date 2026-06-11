@@ -10,7 +10,6 @@ body {
     background-color: #ffffff;
 }
 
-/* Encabezado */
 .encabezado {
     text-align: center;
     position: relative;
@@ -43,7 +42,6 @@ body {
     margin-right: auto;
 }
 
-/* Bloques principales - ocupan todo el ancho */
 .bloque {
     width: 100%;
     padding: 40px 5%;
@@ -118,7 +116,6 @@ body {
     background-color: #23452b;
 }
 
-/* Imagen con marco decorativo SOLO en esquina superior izquierda */
 .foto {
     flex: 1;
     min-width: 320px;
@@ -129,10 +126,9 @@ body {
 .marco-decorativo {
     position: relative;
     padding: 20px;
-    border: none; /* Sin borde completo */
+    border: none;
 }
 
-/* ✅ SOLO UNA ESQUINA: superior izquierda en forma de L */
 .esquina {
     position: absolute;
     width: 75px;
@@ -157,14 +153,13 @@ body {
     z-index: 1;
 }
 
-/* ✅ BOTÓN ESTILO YOUTUBE + CAMBIO DE COLOR + SIN MANITO */
 .boton-play {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     /* Forma de YouTube: rectángulo redondeado */
-    background-color: #ff0000; /* Rojo YouTube normal */
+    background-color: #ff0000;
     color: white;
     width: 55px;
     height: 40px;
@@ -173,19 +168,16 @@ body {
     align-items: center;
     justify-content: center;
     font-size: 1.2rem;
-    /* ✅ QUITAMOS LA MANO: cursor normal */
     cursor: default;
     transition: all 0.3s ease;
     z-index: 3;
 }
 
-/* ✅ Al pasar el cursor: fondo blanco, ícono rojo */
 .boton-play:hover {
     background-color: #ffffff;
     color: #ff0000;
 }
 
-/* Responsive */
 @media (max-width: 768px) {
     .contenido {
         flex-direction: column;
