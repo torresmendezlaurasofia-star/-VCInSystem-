@@ -1,0 +1,71 @@
+.banner-oferta {
+  width: 100%;
+  max-width: 1024px;
+  height: 480px;
+  margin: 0 auto;
+  background-color: #f8f8f8; 
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.imagen-lado {
+  width: 55%;
+  height: 100%;
+  background: url("imagen-sandwich.jpg") left center / contain no-repeat;
+}
+
+.texto-oferta {
+  width: 45%;
+  height: 100%;
+  color: #2e7d32;
+  padding: 30px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: right;}
+
+.etiqueta {
+  font-size: 20px;
+  color: #2e7d32; 
+  margin-bottom: 8px;
+  font-weight: normal;
+}
+
+.texto-oferta h2 {
+  font-size: 32px;
+  color: #2e7d32; 
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.subtitulo {
+  font-size: 22px;
+  color: #388e3c; 
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.descripcion {
+  font-size: 15px;
+  color: #2e7d32;
+  line-height: 1.5;
+  margin-bottom: 25px;
+}
+
+.boton {
+  background-color: #2e7d32;
+  color: white;
+  border: none;
+  padding: 10px 22px;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  cursor: pointer;
+  align-self: flex-end;
+}
+
+.boton:hover {
+  background-color: #256c29;
+}
